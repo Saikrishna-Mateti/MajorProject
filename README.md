@@ -9,7 +9,7 @@ An Arduino project for home security system with the help of IOT (Internet of th
  # Detailed description
   IOT and Arduino Based Home Security System uses four Sensors, namely, Temperature, Smoke, LPG and IR sensors. Data from these sensors is then sent to the Arduino, which has an inbuilt signal converter. Arduino then sends data over to the Wi-Fi module – ESP8266. ESP8266 is a chip used for connecting micro-controllers to the Wi-Fi network and make TCP/IP connections and send data. Data, which is sensed by these sensors, is then sent to the IOT.
    
-  We have connected a password module by which a user can enter the password. The door would open only if the password entered is correct. The IR sensor needs to be installed on the door, which is, by default activated. If an individual enters the correct password, the IR sensor is deactivated for 10 seconds and the buzzer won’t turn ON. If somebody tries to enter the house without entering the password, i.e. by damaging the lock or so, as soon as the person passes the IR sensor, the buzzer would be turned ON.
+  
   
 # Block Diagram of the Project
  
